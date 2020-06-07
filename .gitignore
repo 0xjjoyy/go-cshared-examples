@@ -4,3 +4,5 @@
 *.jar
 .vscode/*
 node_modules
+Cargo.lock
+target/
