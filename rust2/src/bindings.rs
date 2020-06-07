@@ -156,7 +156,6 @@ fn bindgen_test_layout_GoSlice() {
         )
     );
 }
-#[link(name = "awesome", kind="dylib")]
 extern "C" {
     pub fn Add(p0: GoInt, p1: GoInt) -> GoInt;
 }
